@@ -1,2 +1,0 @@
-# terrafund
-website
