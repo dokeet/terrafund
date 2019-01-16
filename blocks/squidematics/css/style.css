@@ -1,0 +1,7 @@
+body {
+  background: #333;
+  overflow: hidden;
+}
+canvas {
+  background: black;
+}
