@@ -76,7 +76,7 @@ header ul > li:hover {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #282b37;
-  background-image: url("/images/robot.jpg");
+  background-image: url("../images/robot.jpg");
   background-repeat:  no-repeat;
   background-size: cover;
 
