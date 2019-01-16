@@ -91,6 +91,13 @@ header ul > li:hover {
   border-style: solid; 
   border-radius: 50%;
   z-index: 1;
+  transition: transform 1000ms ease, opacity 1000ms 500ms ease;
+  transform-origin: center center;
+}
+.play-button-bg.clicked {
+  opacity: 0;
+  z-index: 0;
+  transform: scale(4);
 }
 .play-button {
   width: 0;
@@ -109,7 +116,7 @@ header ul > li:hover {
 }
 #player {
   width: 75%;
-  height: 60%;
+  height: 75%;
   position: absolute;
   z-index: 0;
 }

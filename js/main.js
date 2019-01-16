@@ -2,11 +2,8 @@ document
 	.querySelector(".play-button-bg")
 	.addEventListener("click", function () {
 		console.log("clicked")
+		this.classList.add("clicked");
 		loadYT();
-		this.style.transition = "transform 1000ms ease, opacity 1000ms 500ms ease";
-		this.style.opacity = 0;
-		this.style.zIndex = -1;
-		this.style.transform = "scale(5)";
 	});
 
 function loadYT() {
@@ -14,7 +11,7 @@ function loadYT() {
 	var tag = document.createElement("script");
 
 	tag.src = "https://www.youtube.com/iframe_api";
-	var firstScriptTag = document.getElementsByTagName("script")[1];
+	var firstScriptTag = document.getElementsByTagName("script")[0];
 	firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 }
 // 3. This function creates an <iframe> (and YouTube player)
