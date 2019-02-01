@@ -1,7 +1,4 @@
-(function(){
-	// 
 
-})();
 const playerWrapper = document.querySelector(".player-wrapper");
 const btnClose = document.querySelector(".btn-close span");
 const playButtonBg = document.querySelector(".play-button-bg");
@@ -18,7 +15,7 @@ document
 			 return;
 		}
 		loadYT();
-		console.log("clicked")
+
 		playButtonBg.classList.toggle("clicked");
 		playerWrapper.style.display = "flex";
 		playerWrapper.style.backgroundColor = "#000";
@@ -60,7 +57,7 @@ function onYouTubeIframeAPIReady() {
 
 // 4. The API will call this function when the video player is ready.
 function onPlayerReady(event) {
-	console.log(event.target);
+
 	event.target.playVideo();
 }
 
