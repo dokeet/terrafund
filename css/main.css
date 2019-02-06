@@ -96,7 +96,7 @@ body {
 	flex-direction: column;
 	flex-wrap: wrap;
 	background-color: #282b37;
-	background-image: url("../images/robot.jpg");
+	background-image: url("../images/robot1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -115,6 +115,7 @@ body {
 	z-index: 1;
 	transition: transform 1000ms ease, opacity 1000ms 500ms ease;
 	transform-origin: center center;
+	transform: translate(0px, -55px);
 }
 
 .play-button-bg.clicked {
@@ -130,15 +131,17 @@ body {
 	border-width: 14px 0 14px 28px;
 	border-color: transparent transparent transparent #ffffff;
 	margin: 0 auto;
-	transform: translate(2px, 0px);
+
 }
 
 .play-button-bg:hover .play-button {
-	border-color: transparent transparent transparent #e01414;
+	
+	border-color: transparent transparent transparent hsl(180, 100%, 50%);
 }
 
 .play-button-bg:hover {
-	border-color: #e01414;
+	border-color: hsl(180, 100%, 50%);
+	
 }
 
 #player {
