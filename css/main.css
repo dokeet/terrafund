@@ -60,7 +60,32 @@ body {
 		grid-auto-rows: 100vh;
 		grid-gap: 0.1rem;
 	}
+	.block:nth-child(1){
+		order: 1;
+	}
+	.block:nth-child(2){
+		order: 2;
+	}
+	.block:nth-child(3){
+		order: 4;
+	}
+	.block:nth-child(4){
+		order: 3;
+	}
+	.block:nth-child(5){
+		order: 5;
+	}
+	.block:nth-child(6){
+		order: 6;
+	}
+	.block:nth-child(7){
+		order: 7;
+	}
+	.block:nth-child(8){
+		order: 8;
+	}
 }
+
 
 .hero-fullscreen {
 	height: 100vh;
@@ -278,7 +303,7 @@ div.bl {
 /* footer */
 
 footer {
-	height: 19rem;
+
 	background: #2b2e3ac2;
 	width: 100%;
 	top: 0;
@@ -288,9 +313,11 @@ footer {
 
 footer ul {
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	list-style-type: none;
+
+	
 
 }
 .footer-container {
@@ -301,8 +328,28 @@ footer ul {
 	width:100%;
 
 }
-.footer-area {
-	padding-top: 120px;
+@media(max-width: 996px){
+	.fo_menu {
+		flex-direction: column;
+	
+	}
+}
+footer ul>li {
+	flex-wrap: wrap;
+	list-style: none;
+	font-weight: 700;
+	color: #dfdfdf;
+	cursor: pointer;
+	
+}
+footer ul li > a{
+	color: #fff;
+	text-decoration: none;
+	
+}
+.footer_area {
+
+	width: 75%;
 }
 .f_s_ic svg {
 	height: 3rem;
@@ -336,23 +383,10 @@ footer ul {
 .f_s_ic > li:hover .fa-instagram-bg{
 	opacity: 1;	
 }
-footer ul>li {
-	margin-right: 5rem;
-	list-style: none;
-	font-weight: 700;
-	color: #dfdfdf;
-	cursor: pointer;
-	
-}
-footer ul li > a{
-	color: #fff;
-	text-decoration: none;
-	
-}
-
 .fo_menu li {
 	padding-top: 2rem;
 	transition: 0.3s ease;
+
 }
 .fo_menu li:hover {
 	transform: scale3d(1.2, 1.2, 1.2);
