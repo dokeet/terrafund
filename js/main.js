@@ -551,7 +551,7 @@ function stopVideo() {
 			lastTime = time;
 			// ---- clear screen ----
 			ctx.clearRect(0, 0, canvas.width, canvas.height);
-			ctx.fillStyle = "#282b37";
+			ctx.fillStyle = "#222222";
 			ctx.fillRect(0, 0, canvas.width, canvas.height * 0.15);
 			ctx.fillRect(0, canvas.height * 0.85, canvas.width, canvas.height * 0.15);
 			// ---- animate robots ----
@@ -562,13 +562,14 @@ function stopVideo() {
 		};
 		const initRobots = () => {
 			// ---- instanciate robots ----
+			let robotSize = [6, 5.2, 6]
 			ground = canvas.height > 500 ? 0.85 : 1.0;
 			for (let i = 0; i < 3; i++) {
 				dancers.push(
 					new Robot(
 						i * 10 + 120,
 						80,
-						Math.sqrt(Math.min(canvas.width, canvas.height)) / 6,
+						Math.sqrt(Math.min(canvas.width, canvas.height)) / robotSize[i],
 						(i + 2) * canvas.width / 9,
 						canvas.height * 0.5 - 100,
 						struct
@@ -723,7 +724,7 @@ function stopVideo() {
 				ctx.beginPath();
 				ctx.moveTo(x, y);
 				ctx.lineTo(o.x, o.y);
-				ctx.strokeStyle = "#f47a42";
+				ctx.strokeStyle = "#ffe593";
 				ctx.lineWidth = o.w;
 				ctx.lineCap = 'round';
 				ctx.stroke();
