@@ -282,7 +282,7 @@ function stopVideo() {
 				this.frame = 0;
 				this.dir = 1;
 				this.size = size;
-				this.color = Math.round(color);
+				this.color = color;
 				this.light = light;
 				// ---- create points ----
 				for (const p of struct.points) {
@@ -382,7 +382,7 @@ function stopVideo() {
 				this.light = light || 1.0;
 				this.force = force || 0.5;
 				this.image = this.stroke(
-					"hsl(" + parent.color + " ,30%, " + parent.light * this.light + "%)",
+					"hsl(" + parent.color + " ,50%, " + parent.light * this.light + "%)",
 					true, disk, dist, size
 				);
 				this.shadow = this.stroke("rgba(0,0,0,0.5)", false, disk, dist, size);
@@ -562,13 +562,14 @@ function stopVideo() {
 		};
 		const initRobots = () => {
 			// ---- instanciate robots ----
-			let robotSize = [6, 5.2, 6]
+			let robotSize = [6, 5.2, 6];
+			let robotColors = [203, 114, 37]
 			ground = canvas.height > 500 ? 0.85 : 1.0;
 			for (let i = 0; i < 3; i++) {
 				dancers.push(
 					new Robot(
-						i * 10 + 120,
-						80,
+						robotColors[i],
+						100,
 						Math.sqrt(Math.min(canvas.width, canvas.height)) / robotSize[i],
 						(i + 2) * canvas.width / 9,
 						canvas.height * 0.5 - 100,
