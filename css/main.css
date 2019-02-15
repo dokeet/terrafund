@@ -871,9 +871,10 @@ ul.fo_menu li {
 ul.fo_menu li a {
     color: #999;
     padding: 5px;
-    /* font-weight: 700; */
+    font-weight: 400; 
     /* text-transform: uppercase; */
     font-size: 14px;
+
 }
 
 .right_footer {
@@ -1016,7 +1017,7 @@ ul.fo_menu li a {
     border-bottom: 1px;
     border-color: #fff;
     opacity: 1;
-    border-bottom: #ccc 1px solid;
+    border-bottom: #808080e0 1px solid;
     padding: 20px 0 30px;
     text-transform: capitalize !important;
 }
@@ -1053,6 +1054,7 @@ footer.footer-section {
 
 .fo_menu li a {
     transition: all .4s;
+    font-weight: 400;
 }
 
 .fo_menu li:hover a {
@@ -1107,13 +1109,14 @@ ul.fo_menu li a {
 .fo_menu li a:hover {
     color: #3A5876 !important;
     opacity: 1;
-	border-bottom: 0px solid;
+    border-bottom: 0px solid;
+    font-weight: normal !important;
     /* border-color: #fff; */
 }
 
 
 .fo_menu li {
-    margin-left: 18px;
+    margin-left: 20px;
     transition: all 0.4s ease-in-out;
     display: inline-block;
 }
@@ -1121,6 +1124,7 @@ ul.fo_menu li a {
 ul.fo_menu li:hover {
     display: inline-block;
     transform: scale(1.2);
+    font-weight: bold !important;
 }
 
 .f_s_ic li {
@@ -1372,7 +1376,7 @@ ul.fo_menu li a {
     border-bottom: 1px;
     border-color: #fff;
     opacity: 1;
-    border-bottom: #ccc 1px solid;
+    border-bottom: #808080e0 1px solid;
     padding: 20px 0 30px;
     text-transform: capitalize !important;
 }
@@ -1433,18 +1437,12 @@ ul.fo_menu li a {
 .fo_menu li a:hover {
     color: #666 !important;
     opacity: 1;
-    /* font-weight: bold !important; */
+    font-weight: bold !important;
     border-bottom: 0px solid;
     /* border-color: #fff; */
 }
 
-.fo_menu li a:hover {
-    color: #666 !important;
-    opacity: 1;
-    /* font-weight: bold !important; */
-    border-bottom: 0px solid;
-    /* border-color: #fff; */
-}
+
 
 .fo_menu li {
     margin-left: 18px;
@@ -1568,9 +1566,7 @@ dl, ol, ul {
 
 
 body {
-    /* font-family: 'Roboto', sans-serif;
-    font-family: 'Montserrat', sans-serif; */
-    font-family: Arial, 'cursive';
+    font-family: Verdana, sans-serif; 
 }
 ul.fo_menu li a {
     color: #fff !important;
