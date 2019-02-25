@@ -45,7 +45,7 @@ a:focus{outline:none!important;}
 /*! CSS Used from: https://terrafund.herokuapp.com/assest/css/mar_signle.css */
 .footer-section .container{max-width:990px;}
 .fo_menu{text-align:center;padding:25px 0px;border-bottom:1px solid;border-color:#fff;opacity:0.9;}
-.f_s_ic li a i{font-size:30px;margin:20px;color:#fff;opacity:0.9;}
+.f_s_ic li a i{font-size:24px;margin:20px;color:#fff;opacity:0.9;}
 .f_s_ic li a{color:#fff;}
 .f_s_ic li a:hover i{opacity:0.9;}
 .f_text p{text-align:center;}
@@ -53,15 +53,15 @@ a:focus{outline:none!important;}
 .fo_menu li a{color:#fff!important;opacity:0.9;}
 .f_s_ic li a:hover{border:none;}
 .f_text{margin-top:40px;}
-ul.fo_menu li a{color:#999;padding:5px;text-transform:capitalize!important;font-size:18px;}
+ul.fo_menu li a{color:#999;padding:5px;text-transform:capitalize!important;font-size:15px;}
 .foote_two ul.fo_menu li a{color:#999;padding:5px;text-transform:capitalize!important;font-size:15px;}
 .fo_menu{text-align:center;padding:25px 0px;border-bottom:1px;border-color:#fff;opacity:1;border-bottom:#ccc 1px solid;padding:20px 0 30px;text-transform:capitalize!important;}
 .fo_menu li a{opacity:0.9;color:#757575!important;}
 .footer-section .container{max-width:1140px;}
-ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:18px;margin-right:25px;}
-ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:18px;margin-right:10px;}
-.fo_menu li a:hover{color:#666!important;opacity:1;font-weight:bold!important;border-bottom:0px solid;}
-.fo_menu li a:hover{color:#666!important;opacity:1;font-weight:bold!important;border-bottom:0px solid;}
+ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:15px;margin-right:25px;}
+ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:15px;margin-right:10px;}
+.fo_menu li a:hover{color:#666!important;opacity:1;font-weight:500!important;border-bottom:0px solid;}
+.fo_menu li a:hover{color:#666!important;opacity:1;font-weight:500!important;border-bottom:0px solid;}
 .fo_menu li{margin-left:18px;scale:();transition:all 1s;display:inline-block;}
 ul.fo_menu li:hover{display:inline-block;transform:scale(1.2, 1.2);}
 .f_s_ic li a:hover i{opacity:1;}
@@ -77,8 +77,8 @@ ul.f_s_ic{text-align:center;}
 .footer-section{padding-bottom:40px;}
 .f_text{margin-top:20px;}
 .footer-section{padding-bottom:20px;}
-.f_text{margin-top:20px;padding:10px 0px;font-size:14px;}
-ul.fo_menu li a{color:#fff!important;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:18px;margin-right:10px;transition:all 0.4s ease-in-out;margin-right:25px;}
+.f_text{margin-top:20px;padding:10px 0px;font-size:15px;}
+ul.fo_menu li a{color:#fff!important;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:15px;margin-right:10px;transition:all 0.4s ease-in-out;margin-right:25px;}
 .f_s_ic li a i{font-size:30px;margin:20px;color:#fff;opacity:0.9;background:transparent;line-height:20px;padding:0px;border-radius:10px;height:40px;width:40px;line-height:40px;-moz-transition:all 0.4s ease-in-out;-webkit-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;-ms-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;margin-left:20px;}
 ul.f_s_ic{text-align:center;border-bottom:#ccc 1px solid;padding:11px 0px;}
 .f_s_ic li a{color:#fff;margin-right:30px;}
@@ -93,11 +93,11 @@ ul.fo_menu li a{color:#999;padding:5px;font-weight:700;text-transform:uppercase;
 .fo_menu li a:hover{color:#fe5700!important;opacity:1;border-bottom:0px solid;}
 .f_text{color:#999;}
 .up i{color:#fff;}
-.up{width:50px;height:50px;line-height:50px;background:rgba(0, 0, 0, .4);background:#3A5876;text-align:center;transition:0.2s ease-in;cursor:pointer;position:fixed;right:15px;bottom:25px;z-index:555;}
+.up{width:50px;height:50px;line-height:50px;background:rgba(0, 0, 0, .4);background:#3A5876;text-align:center;transition:0.2s ease-in;cursor:pointer;position:absolute;right:15px;bottom:25px;z-index:555;}
 .up:hover{background:#fe5700;}
 .f_s_ic li a i{font-size:30px;margin:20px;color:#a6a6a6;opacity:0.9;background:transparent;line-height:20px;padding:0px;border-radius:10px;height:40px;width:40px;line-height:40px;-moz-transition:all 0.4s ease-in-out;-webkit-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;-ms-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;}
 footer.footer-section{background:#282b37;position:relative;}
-ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:18px;}
+ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:15px;}
 .foote_two ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:15px;}
 .fo_menu{text-align:center;padding:25px 0px;border-bottom:1px;border-color:#fff;opacity:1;border-bottom:#ccc 1px solid;padding:20px 0 30px;text-transform:capitalize!important;}
 footer.footer-section{background:#282b37;position:relative;-webkit-box-shadow:inset 2px 2px 5px 1px rgba(0, 0, 0, .08);-moz-box-shadow:inset 2px 2px 5px 1px rgba(0, 0, 0, .08);box-shadow:inset 2px 2px 5px 1px rgba(0, 0, 0, .08);background-color:#f2f2f2;background:#222;}
@@ -106,10 +106,9 @@ footer.footer-section{background:#282b37;position:relative;-webkit-box-shadow:in
 .fo_menu li:hover a{opacity:1;border-bottom:0px solid;color:#666!important;}
 .up,.up i{transition:all 0.3s linear;}
 .up:hover{background:#3A5876;}
-ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:18px;margin-right:10px;transition:all 0.4s ease-in-out;}
-.fo_menu li a:hover{color:#3A5876!important;opacity:1;border-bottom:0px solid;}
-.fo_menu li a:hover{color:#666!important;opacity:1;font-weight:bold!important;border-bottom:0px solid;}
-.fo_menu li a:hover{color:#666!important;opacity:1;font-weight:bold!important;border-bottom:0px solid;}
+ul.fo_menu li a{color:#999;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:15px;margin-right:10px;transition:all 0.4s ease-in-out;}
+/* .fo_menu li a:hover{color:#3A5876!important;opacity:1;border-bottom:0px solid;} */
+/* .fo_menu li a:hover{color:#666!important;opacity:1;font-weight:bold!important;border-bottom:0px solid;} */
 .fo_menu li{margin-left:18px;scale:();transition:all 0.4s ease-in-out;display:inline-block;}
 ul.fo_menu li:hover{display:inline-block;transform:scale(1.2, 1.2);}
 .f_s_ic li{display:inline-block;}
@@ -132,17 +131,20 @@ ul.f_s_ic{text-align:center;border-bottom:#808080e0 1px solid;padding:11px 0px;}
 .fo_menu{text-align:center;padding:25px 0px;border-bottom:1px;border-color:#fff;opacity:1;border-bottom:#808080e0 1px solid;padding:20px 0 30px;text-transform:capitalize!important;}
 ul.fo_menu li{transition:all .4s ease-in;}
 ul.fo_menu li:hover{transition:all .4s ease-in;display:inline-block;transform:scale(1.2, 1.1);}
-.foote_two ul.fo_menu li a{font-size:18px!important;font-weight:normal;}
-ul.fo_menu li:hover a{color:orange!important;font-weight:normal!important;font-weight:700!important;}
+.foote_two ul.fo_menu li a{font-size:15px!important;font-weight:normal;}
+/* ul.fo_menu li:hover a{color:orange!important;font-weight:normal!important;font-weight:500!important;} */
 ul.fo_menu li,ul.fo_menu li a{transition:all .4s ease!important;font-size:20px!important;}
-ul.fo_menu li:hover{transform:scale(1.2);}
+ul.fo_menu li:hover{transform:scale(1.2, 1.1);}
 .up{width:50px;height:50px;line-height:auto;background:#666!important;background:transparent;text-align:center;transition:0.4s ease-in!important;cursor:pointer;position:fixed;right:15px;bottom:25px;z-index:555;}
 .up i.fa{transform:scale(1);transition:0.4s ease-in!important;}
 .up:hover{color:#fff;background:#3A5876!important;}
 .up:hover i.fa{transform:scale(1.25);color:#fff;}
 footer.footer-section{box-shadow:inset 10px 10px 5px 1px rgba(0, 0, 0, .08);}
-ul.fo_menu li,ul.fo_menu li a{transition:all .3s ease-in-out!important;}
-ul.fo_menu li:hover a{color:grey!important;font-weight:700!important;}
+ul.fo_menu li,ul.fo_menu li a{transition:all .4s ease-in-out!important;}
+
+ul.fo_menu li:hover a{color:grey!important;  text-shadow: 0 0 2px grey;
+}
+
 .sectionp{padding:60px 0 70px;}
 ul.fo_menu li,ul.fo_menu li a{font-size:18px!important;}
 .sectionp{padding:60px 0 20px;}
@@ -161,3 +163,61 @@ ul.fo_menu li,ul.fo_menu li a{font-size:18px!important;}
 }
 /*! CSS Used fontfaces */
 @font-face{font-family:'FontAwesome';src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/fonts/fontawesome-webfont.eot?v=4.1.0');src:url('https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/fonts/fontawesome-webfont.eot#iefix&v=4.1.0') format('embedded-opentype'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/fonts/fontawesome-webfont.woff?v=4.1.0') format('woff'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/fonts/fontawesome-webfont.ttf?v=4.1.0') format('truetype'),url('https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/fonts/fontawesome-webfont.svg?v=4.1.0#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;}
+/*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css */
+*,::after,::before{box-sizing:border-box;}
+section{display:block;}
+h3{margin-top:0;margin-bottom:.5rem;}
+p{margin-top:0;margin-bottom:1rem;}
+h3{margin-bottom:.5rem;font-family:inherit;font-weight:500;line-height:1.2;color:inherit;}
+h3{font-size:1.75rem;}
+.small{font-size:80%;font-weight:400;}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;}
+@media (min-width:576px){
+.container{max-width:540px;}
+}
+@media (min-width:768px){
+.container{max-width:720px;}
+}
+@media (min-width:992px){
+.container{max-width:960px;}
+}
+@media (min-width:1200px){
+.container{max-width:1140px;}
+}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-right:-15px;margin-left:-15px;}
+.col-md-10{position:relative;width:100%;min-height:1px;padding-right:15px;padding-left:15px;}
+@media (min-width:768px){
+.col-md-10{-webkit-box-flex:0;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%;}
+.offset-md-1{margin-left:8.333333%;}
+}
+@media print{
+*,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+h3,p{orphans:3;widows:3;}
+h3{page-break-after:avoid;}
+.container{min-width:992px!important;}
+}
+/*! CSS Used from: https://terrafund.herokuapp.com/assest/css/reset.css */
+*{margin:0;padding:0;}
+h3,p{margin:0;padding:0;}
+:after,:before{background-repeat:no-repeat;background-attachment:scroll;background-position:center;background-size:cover;}
+.container:after{position:relative;content:"";clear:both;display:table;}
+/*! CSS Used from: https://terrafund.herokuapp.com/style.css */
+h3{line-height:0.2;}
+h3{font-family:Verdana, Geneva, Tahoma, sans-serif; font-weight: 700;}
+.container{max-width:1425px;padding:0 90px;}
+section.gray{background:#282b37;color:#fff;text-align:center;}
+section .wrapper{padding-top:96px;padding-bottom:96px;}
+section.gray p{color:#888;font-size:24px;line-height:40px;}
+.small.wrapper h3{margin-bottom:25px;}
+.small.wrapper h3{margin-bottom:15px!important;font-size:30px!important;line-height:35px!important;}
+section .wrapper{padding:60px 0px;}
+section.gray p{font-size:17px!important;line-height:28px;margin-bottom:10px;}
+.small.wrapper p{max-width:850px;margin:auto;}
+section .wrapper{padding:100px 0px 110px;}
+/*! CSS Used from: https://terrafund.herokuapp.com/assest/css/responsive.css */
+@media all and (max-width: 767px){
+.container{padding-left:15px;padding-right:15px;}
+}
+.fo_menu:nth-child(1) li {
+    display: inline;
+}
