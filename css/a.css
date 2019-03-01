@@ -78,7 +78,11 @@ ul.f_s_ic{text-align:center;}
 .f_text{margin-top:20px;}
 .footer-section{padding-bottom:20px;}
 .f_text{margin-top:20px;padding:10px 0px;font-size:15px;}
+<<<<<<< HEAD
 ul.fo_menu li a{color:#fff!important;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:15px;margin-right:10px;transition:all 0.4s ease-in-out;margin-right:25px;}
+=======
+ul.fo_menu li a{color:#fff!important;padding:5px;font-weight:normal;text-transform:capitalize!important;font-size:18px;margin-right:10px;transition:all 0.4s ease-in-out;margin-right:25px;}
+>>>>>>> 687023b7387aaa54608fa0e7e65eb25343e52d0a
 .f_s_ic li a i{font-size:30px;margin:20px;color:#fff;opacity:0.9;background:transparent;line-height:20px;padding:0px;border-radius:10px;height:40px;width:40px;line-height:40px;-moz-transition:all 0.4s ease-in-out;-webkit-transition:all 0.4s ease-in-out;-o-transition:all 0.4s ease-in-out;-ms-transition:all 0.4s ease-in-out;transition:all 0.4s ease-in-out;margin-left:20px;}
 ul.f_s_ic{text-align:center;border-bottom:#ccc 1px solid;padding:11px 0px;}
 .f_s_ic li a{color:#fff;margin-right:30px;}
