@@ -18,7 +18,7 @@ document
 		playButtonBg.classList.toggle("clicked");
 		playerWrapper.style.display = "flex";
 		playerWrapper.style.backgroundColor = "#000";
-		btnClose.style.color = "#fff";
+		btnClose.style.color = "#969696";
 
 
 
