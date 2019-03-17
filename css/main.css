@@ -99,10 +99,9 @@ body {
 	justify-content: center;
 	height: 8em;
 	width: 10em;
-	border-color: #0a89c7;
-	border-style: solid;
+	opacity:0.8;
 	border-radius: 4%;
-	background-color: hsl(199, 95%, 15%); 
+	background-color: hsl(199, 97%, 23%); 
 	z-index: 1;
 	transition: all 400ms ease;
 	/* transform-origin: center center; */
@@ -142,8 +141,8 @@ body {
 }
 
 #player {
-	width: 65%;
-	height: 75%;
+	width: 88%;
+	height: 100%;
 	position: absolute;
 	z-index: 0;
 	margin: 0 auto;
@@ -161,7 +160,7 @@ body {
 
 @media(max-width: 736px) {
 	#player {
-		height: 60%;
+		height: 100%;
 		width: 100%;
 	}
 }
@@ -181,12 +180,17 @@ body {
 	font-size: 4rem;
 	color: transparent;
 	position: absolute;
-	left: 85%;
-	bottom: 80%;
+	left: 95%;
+	bottom: 88%;
 	transition: all 0.3s ease;
+	z-index: 2;
 }
 #robots {
 	cursor: pointer;
+	
+}
+.robots {
+	position: relative;
 }
 /*
 span {
@@ -226,27 +230,27 @@ span {
 	grid-template-rows: repeat(3, 100vh);
 }
 .block:nth-child(1) {
-	order: 2;
-}
-
-.block:nth-child(2) {
 	order: 1;
 }
 
-.block:nth-child(3) {
-	order: 4;
+.block:nth-child(2) {
+	order: 2;
 }
 
-.block:nth-child(4) {
+.block:nth-child(3) {
 	order: 3;
 }
 
+.block:nth-child(4) {
+	order: 4;
+}
+
 .block:nth-child(5) {
-	order: 6;
+	order: 5;
 }
 
 .block:nth-child(6) {
-	order: 5;
+	order: 6;
 }
 
 /* .block:nth-child(7) {
@@ -381,19 +385,19 @@ div.bl {
 #spunge {
 	top: 50%;
 	left: 50%;
-	width: 600px;
-	height: 600px;
+	width: 500px;
+	height: 500px;
 	margin-top: -300px;
 	margin-left: -320px;
 	transform-origin: center center;
 	transform: rotateY(147deg) rotateX(-16deg);
 	transform-style: preserve-3d;
 }
-.spongemove {
+.spungemove {
 	animation: move 10s ease infinite backwards alternate;
 	transform-style: preserve-3d;
-
 }
+
 @keyframes move {
 	to {
 		transform: rotateY(147deg) rotateX(-16deg);
