@@ -71,7 +71,7 @@ body {
 	content: '';
 	border-width: 0 20px 20px 20px;
 	border-style: solid;
-	border-color: var(--blue) transparent var(--blue) transparent;
+	border-color: #282b37 transparent #282b37 transparent;
 	position: absolute;
 	transform: rotate(180deg);
 	z-index: 9999;
@@ -141,8 +141,8 @@ body {
 }
 
 #player {
-	width: 88%;
-	height: 100%;
+	width: 65%;
+	height: 80%;
 	position: absolute;
 	z-index: 0;
 	margin: 0 auto;
@@ -180,8 +180,8 @@ body {
 	font-size: 4rem;
 	color: transparent;
 	position: absolute;
-	left: 95%;
-	bottom: 88%;
+	left: 85%;
+	bottom: 80%;
 	transition: all 0.3s ease;
 	z-index: 2;
 }
@@ -385,10 +385,10 @@ div.bl {
 #spunge {
 	top: 50%;
 	left: 50%;
-	width: 500px;
-	height: 500px;
+	width: 480px;
+	height: 480px;
 	margin-top: -300px;
-	margin-left: -320px;
+	margin-left: -230px;
 	transform-origin: center center;
 	transform: rotateY(147deg) rotateX(-16deg);
 	transform-style: preserve-3d;
@@ -825,129 +825,3 @@ div.bl {
 	}
 }
 
-/* footer
-hr {
-	border: solid 0.4px rgb(158, 158, 158);
-}
-
-footer {
-
-	background: var(--dark-grey);
-	width: 100%;
-	top: 0;
-	z-index: 2;
-
-	padding-top: 1rem;
-
-}
-
-footer ul {
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	list-style-type: none;
-
-
-
-}
-
-.footer-container {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
-	width: 100%;
-	padding: 1rem 8rem 1rem 8rem;
-
-}
-
-@media(max-width: 996px) {
-	.fo_menu {
-		flex-direction: column;
-
-	}
-}
-
-footer ul>li {
-	flex-wrap: wrap;
-	list-style: none;
-	font-weight: 700;
-	color: #dfdfdf;
-	cursor: pointer;
-
-}
-
-footer ul li>a {
-	color: #fff;
-	text-decoration: none;
-
-}
-
-.footer_area {
-
-	width: 75%;
-}
-
-.f_s_ic svg {
-	height: 2.5rem;
-	width: 2.5rem;
-	transition: all 0.4s ease;
-}
-
-.f_s_ic svg:hover {
-	transform: scale3d(1.2, 1.2, 1.2);
-
-}
-
-.f_s_ic>li:hover .fa-twitter {
-	color: #1da1f2;
-
-}
-
-.f_s_ic>li:hover .fa-linkedin {
-	color: #0077b5;
-
-}
-
-.f_s_ic>li:hover .fa-youtube {
-	color: #ff0000;
-
-}
-
-.f_s_ic>li:hover .fa-facebook {
-	color: #4267b2;
-
-}
-
-.f_s_ic>li .fa-instagram-bg {
-	opacity: 0;
-	transition: opacity 0.3s ease;
-}
-
-.f_s_ic>li:hover .fa-instagram-bg {
-	opacity: 1;
-}
-
-.fo_menu li {
-	padding-top: 2rem;
-	transition: 0.3s ease;
-
-}
-
-.fo_menu li:hover {
-	transform: scale3d(1.2, 1.2, 1.2);
-}
-
-.footer_two ul>li {
-	padding-top: 2rem;
-	font-weight: 400;
-}
-
-.f_text {
-	padding-top: 1rem;
-	text-align: center;
-	color: #dfdfdf;
-} */
-
-/* footer */
-/* 
