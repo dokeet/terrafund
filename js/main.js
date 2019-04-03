@@ -203,7 +203,7 @@ function stopVideo() {
 				this.size = size;
 				this.light = light || 1.0;
 				this.force = force || 0.5;
-				this.color = `hsl(${parent.color}, 30%, ${parent.light * this.light}%)`;
+				this.color = `hsl(${parent.color}, 50%, ${parent.light * this.light}%)`;
 				this.disk = disk;
 			}
 			update() {
@@ -507,20 +507,26 @@ function stopVideo() {
 				{ p0: 1, p1: 4, size: 24, lum: 1.5 }
 			]
 		};
-		// ---- instanciate robots ----
-		for (let i = 0; i < 2; i++) {
-			///DEFAULT i<3
-			dancers.push(
-				new Robot(
-					(i * 360) / 3,
-					80,
-					4,
-					((i + 2) * canvas.width) / 6,
-					canvas.height * ground - 300,
-					struct
-				)
-			);
-		}
+		dancers.push(
+			new Robot(
+				0,
+				80,
+				4,
+				((3 + 2) * canvas.width) / 9,
+				canvas.height * ground - 300,
+				struct
+			)
+		);
+		dancers.push(
+			new Robot(
+				(4 * 360) / 7,
+				80,
+				4,
+				((2 + 2) * canvas.width) / 9,
+				canvas.height * ground - 300,
+				struct
+			)
+		);
 		dancers.push(
 			new Robot(
 				(2 * 360) / 7,
@@ -530,8 +536,8 @@ function stopVideo() {
 				canvas.height * ground - 1000,
 				struct
 			)
-		); //DEFAULT EMPTY LINE
-		// ---- warm up ----
+		);
+
 		run();
 	}
 })();

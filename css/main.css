@@ -120,7 +120,7 @@ body {
 	width: 0;
 	height: 0;
 	border-style: solid;
-	border-width: 32px 0 32px 46px;
+	border-width: 38px 0 38px 52px;
 	border-color: transparent transparent transparent hsl(210, 25%, 98%);
 	margin: 0 auto;
 	transform: translate(6px, 1px);
@@ -134,7 +134,7 @@ body {
 
 .play-button-bg:hover {
 	/* border-color: hsl(200, 90%, 50%); */
-	background-color: hsl(200, 90%, 50%);
+	background-color: hsl(200, 89%, 36%);
 	transform: scale(1.1);
 
 
