@@ -83,7 +83,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-direction: column;
+	flex-direction: row;
 	flex-wrap: wrap;
 	background-color: var(--dark-grey);
 	background-image: url("../images/robot1.jpg");
@@ -92,7 +92,9 @@ body {
 	position: relative;
 	background-blend-mode: soft-light;
 }
-
+.hero-fullscreen > div {
+	margin-left: 20px;
+}
 .play-button-bg {
 	display: flex;
 	align-items: center;
@@ -140,6 +142,30 @@ body {
 
 }
 
+.btn2 > div {
+	border-color: transparent transparent transparent hsl(210, 25%, 98%);
+	border-width: 44px 0 44px 58px;
+}
+.btn2:hover {
+	background-color: hsl(200, 95%, 61%);
+
+}
+.btn3 > div {
+	border-color: transparent transparent transparent hsl(210, 25%, 98%);
+	border-width: 50px 0 50px 64px;
+}
+.btn3:hover {
+	background-color: hsl(200, 74%, 41%);
+
+}
+.btn4 > div {
+	border-color: transparent transparent transparent hsl(210, 25%, 98%);
+	border-width: 55px 0 55px 69px;
+}
+.btn4:hover {
+	background-color: hsl(200, 82%, 41%);
+
+}
 #player {
 	width: 65%;
 	height: 80%;
@@ -385,8 +411,8 @@ div.bl {
 #spunge {
 	top: 50%;
 	left: 50%;
-	width: 480px;
-	height: 480px;
+	width: 510px;
+	height: 510px;
 	margin-top: -300px;
 	margin-left: -230px;
 	transform-origin: center center;
