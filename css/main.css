@@ -67,9 +67,9 @@ body {
 }
 
 .gray:after {
-	bottom: -20px;
+	bottom: -27px;
 	content: '';
-	border-width: 0 20px 20px 20px;
+	border-width: 0 40px 40px 40px;
 	border-style: solid;
 	border-color: #282b37 transparent #282b37 transparent;
 	position: absolute;
@@ -84,7 +84,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap: wrap; 
 	background-color: var(--dark-grey);
 	background-image: url("../images/robot1.jpg");
 	background-repeat: no-repeat;
@@ -163,8 +163,51 @@ body {
 	border-width: 55px 0 55px 69px;
 }
 .btn4:hover {
+	background-color: hsl(200, 74%, 41%);
+
+}
+.btn5 > div {	
+	border-color: transparent transparent transparent hsl(200, 82%, 41%);
+	border-width: 44px 0 44px 58px;
+}
+.btn5 {
+	background-color: hsl(210, 25%, 98%);
+}
+.btn5:hover {
 	background-color: hsl(200, 82%, 41%);
 
+}
+.btn6 > div {	
+	border-color: transparent transparent transparent hsl(200, 82%, 41%);
+	border-width: 50px 0 50px 64px;
+}
+.btn6 {
+	background-color: hsl(210, 25%, 98%);
+}
+.btn6:hover {
+	background-color: hsl(200, 82%, 41%);
+
+}
+.btn7 > div {	
+	border-color: transparent transparent transparent hsl(200, 82%, 41%);
+	border-width: 55px 0 55px 69px;
+}
+.btn7 {
+	background-color: hsl(210, 25%, 98%);
+}
+.btn7:hover {
+	background-color: hsl(200, 82%, 41%);
+
+}
+.btn8 > div {	
+	border-color: transparent transparent transparent hsl(200, 82%, 41%);
+	border-width: 60px 0 60px 74px;
+}
+.btn8 {
+	background-color: hsl(210, 25%, 98%);
+}
+.btn8:hover {
+	background-color: hsl(200, 82%, 41%);
 }
 #player {
 	width: 65%;
@@ -411,8 +454,8 @@ div.bl {
 #spunge {
 	top: 50%;
 	left: 50%;
-	width: 510px;
-	height: 510px;
+	width: 520px;
+	height: 520px;
 	margin-top: -300px;
 	margin-left: -230px;
 	transform-origin: center center;

@@ -1,3 +1,8 @@
+const xxx = document.querySelector("#spunge");
+
+(()=> {
+	xxx.click();
+})();
 const playerWrapper = document.querySelector(".player-wrapper");
 const btnClose = document.querySelector(".btn-close");
 const playButtonBg = document.querySelector(".play-button-bg");
@@ -72,7 +77,7 @@ function stopVideo() {
 	var offsetY = -16;
 	var elem = document.getElementById("spunge");
 
-	$(".spungemove")
+	$(document)
 		.on("mousedown", function(e) {
 			startX = e.pageX - offsetX;
 			startY = e.pageY - offsetY;
@@ -332,6 +337,7 @@ function stopVideo() {
 				window.addEventListener("touchstart", e => this.down(e), false);
 				window.addEventListener("mouseup", e => this.up(e), false);
 				window.addEventListener("touchend", e => this.up(e), false);
+				window.addEventListener("mouseover", e => this.down(e), false)
 			},
 			down(e) {
 				this.move(e);
