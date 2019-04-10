@@ -67,9 +67,9 @@ body {
 }
 
 .gray:after {
-	bottom: -20px;
+	bottom: -22px;
 	content: '';
-	border-width: 0 40px 40px 40px;
+	border-width: 0 32px 23px 32px;
 	border-style: solid;
 	border-color: #282b37 transparent #282b37 transparent;
 	position: absolute;
