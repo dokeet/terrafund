@@ -67,7 +67,7 @@ body {
 }
 
 .gray:after {
-	bottom: -27px;
+	bottom: -20px;
 	content: '';
 	border-width: 0 40px 40px 40px;
 	border-style: solid;
@@ -454,8 +454,8 @@ div.bl {
 #spunge {
 	top: 50%;
 	left: 50%;
-	width: 520px;
-	height: 520px;
+	width: 550px;
+	height: 550px;
 	margin-top: -300px;
 	margin-left: -230px;
 	transform-origin: center center;
