@@ -336,7 +336,10 @@ function stopVideo() {
 				window.addEventListener("mousedown", e => this.down(e), false);
 				window.addEventListener("touchstart", e => this.down(e), false);
 				window.addEventListener("mouseup", e => this.up(e), false);
-				window.addEventListener("touchend", e => this.up(e), false);			},
+				window.addEventListener("touchend", e => this.up(e), false);		
+					// window.addEventListener("mouseover", e => this.down(e), false);
+				// window.addEventListener("mouseover", e => this.down(e), false);	
+			},
 			down(e) {
 				this.move(e);
 				for (const dancer of dancers) {
