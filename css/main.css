@@ -116,8 +116,18 @@ body {
 	transform: scale(4);
 }
 
-.play-button {
-	/* transform-origin: center center; */
+
+.play-button-bg:hover > div {
+	transform: scale(1.1) translate(6px, 1px);
+	border-color: transparent transparent transparent hsl(180, 33%, 99%);
+}
+
+.play-button-bg:hover {
+	background-color: hsl(200, 89%, 36%);
+	transform: scale(1.1);
+}
+.play-button-bg::after {
+	content: "";
 	transition: 300ms ease;
 	width: 0;
 	height: 0;
@@ -126,88 +136,40 @@ body {
 	border-color: transparent transparent transparent hsl(210, 25%, 98%);
 	margin: 0 auto;
 	transform: translate(6px, 1px);
-
+}
+.darkblue {
+	background-color: hsl(200, 89%, 56%); 
+}
+.darkblue:hover {
+	background-color: hsl(200, 89%, 16%);
+}
+.darkblue::after {
+	border-color: transparent transparent transparent hsl(200, 89%, 16%);
+}
+.darkblue:hover::after {
+	border-color: transparent transparent transparent hsl(200, 89%, 66%);
 }
 
-.play-button-bg:hover .play-button {
-	transform: scale(1.1) translate(6px, 1px);
-	border-color: transparent transparent transparent hsl(180, 33%, 99%);
-}
-
-.play-button-bg:hover {
-	/* border-color: hsl(200, 90%, 50%); */
-	background-color: hsl(200, 89%, 36%);
-	transform: scale(1.1);
-
-
-}
-
-.btn2 > div {
-	border-color: transparent transparent transparent hsl(210, 25%, 98%);
+.play-button-bg:nth-child(2)::after{
 	border-width: 44px 0 44px 58px;
 }
-.btn2:hover {
-	background-color: hsl(200, 95%, 61%);
-
-}
-.btn3 > div {
-	border-color: transparent transparent transparent hsl(210, 25%, 98%);
+.play-button-bg:nth-child(3)::after{
 	border-width: 50px 0 50px 64px;
 }
-.btn3:hover {
-	background-color: hsl(200, 74%, 41%);
-
-}
-.btn4 > div {
-	border-color: transparent transparent transparent hsl(210, 25%, 98%);
+.play-button-bg:nth-child(4)::after{
 	border-width: 55px 0 55px 69px;
 }
-.btn4:hover {
-	background-color: hsl(200, 74%, 41%);
-
-}
-.btn5 > div {	
-	border-color: transparent transparent transparent hsl(200, 82%, 41%);
-	border-width: 44px 0 44px 58px;
-}
-.btn5 {
-	background-color: hsl(210, 25%, 98%);
-}
-.btn5:hover {
-	background-color: hsl(200, 82%, 41%);
-
-}
-.btn6 > div {	
-	border-color: transparent transparent transparent hsl(200, 82%, 41%);
-	border-width: 50px 0 50px 64px;
-}
-.btn6 {
-	background-color: hsl(210, 25%, 98%);
-}
-.btn6:hover {
-	background-color: hsl(200, 82%, 41%);
-
-}
-.btn7 > div {	
-	border-color: transparent transparent transparent hsl(200, 82%, 41%);
-	border-width: 55px 0 55px 69px;
-}
-.btn7 {
-	background-color: hsl(210, 25%, 98%);
-}
-.btn7:hover {
-	background-color: hsl(200, 82%, 41%);
-
-}
-.btn8 > div {	
-	border-color: transparent transparent transparent hsl(200, 82%, 41%);
+.play-button-bg:nth-child(5)::after{
 	border-width: 60px 0 60px 74px;
 }
-.btn8 {
-	background-color: hsl(210, 25%, 98%);
+.play-button-bg:nth-child(6)::after{
+	border-width: 44px 0 44px 58px;
 }
-.btn8:hover {
-	background-color: hsl(200, 82%, 41%);
+.play-button-bg:nth-child(7)::after{
+	border-width: 50px 0 50px 64px;
+}
+.play-button-bg:nth-child(8)::after{
+	border-width: 55px 0 55px 69px;
 }
 #player {
 	width: 65%;
@@ -454,8 +416,8 @@ div.bl {
 #spunge {
 	top: 50%;
 	left: 50%;
-	width: 650px;
-	height: 650px;
+	width: 620px;
+	height: 620px;
 	margin-top: -300px;
 	margin-left: -230px;
 	transform-origin: center center;
