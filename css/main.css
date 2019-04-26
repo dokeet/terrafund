@@ -92,9 +92,9 @@ body {
 	position: relative;
 	background-blend-mode: soft-light;
 }
-.hero-fullscreen > div {
+/* .hero-fullscreen > div {
 	margin-left: 20px;
-}
+} */
 .play-button-bg {
 	display: flex;
 	align-items: center;
@@ -172,8 +172,8 @@ body {
 	border-width: 55px 0 55px 69px;
 }
 #player {
-	width: 65%;
-	height: 80%;
+	width: 60%;
+	height: 75%;
 	position: absolute;
 	z-index: 0;
 	margin: 0 auto;
