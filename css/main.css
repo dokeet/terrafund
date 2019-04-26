@@ -138,16 +138,16 @@ body {
 	transform: translate(6px, 1px);
 }
 .darkblue {
-	background-color: hsl(200, 89%, 56%); 
+	background-color: hsl(200, 89%, 36%); 
 }
 .darkblue:hover {
-	background-color: hsl(200, 89%, 16%);
+	background-color: hsl(199, 97%, 23%);
 }
 .darkblue::after {
-	border-color: transparent transparent transparent hsl(200, 89%, 16%);
+	border-color: transparent transparent transparent hsl(0, 0%, 100%);
 }
 .darkblue:hover::after {
-	border-color: transparent transparent transparent hsl(200, 89%, 66%);
+	border-color: transparent transparent transparent hsl(0, 0%, 100%);
 }
 
 .play-button-bg:nth-child(2)::after{
