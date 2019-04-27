@@ -117,14 +117,13 @@ body {
 }
 
 
-.play-button-bg:hover > div {
-	transform: scale(1.1) translate(6px, 1px);
-	border-color: transparent transparent transparent hsl(180, 33%, 99%);
-}
+.play-button-bg {
+	transform: translate(0px, -15px);
+} 
 
 .play-button-bg:hover {
 	background-color: hsl(200, 89%, 36%);
-	transform: scale(1.1);
+	transform: scale(1.1) translate(0px, -15px);
 }
 .play-button-bg::after {
 	content: "";
@@ -137,7 +136,7 @@ body {
 	margin: 0 auto;
 	transform: translate(6px, 1px);
 }
-.darkblue {
+/* .darkblue {
 	background-color: hsl(200, 89%, 36%); 
 }
 .darkblue:hover {
@@ -170,7 +169,7 @@ body {
 }
 .play-button-bg:nth-child(8)::after{
 	border-width: 55px 0 55px 69px;
-}
+} */
 #player {
 	width: 60%;
 	height: 75%;
@@ -416,8 +415,8 @@ div.bl {
 #spunge {
 	top: 50%;
 	left: 50%;
-	width: 600px;
-	height: 600px;
+	width: 550px;
+	height: 550px;
 	margin-top: -300px;
 	margin-left: -230px;
 	transform-origin: center center;
