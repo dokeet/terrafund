@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .container {
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <canvas id="link-canvas" style="height:100% !important; width:100% !important"></canvas>
+</div>
+<script>
+(function() {
+	"use strict";
+	var buffer = [],
+		vx = 0,
+		vy = 0,
+		xb = 0,
+		yb = 0,
+		Particle = function() {
+			this.x = pointer.x;
+			this.y = pointer.y;
+			this.vx = vx * 0.35;
+			this.vy = vy * 0.35;
+			this.w = 1;
+			if (Math.random() > 0.8) this.w = 20;
+			if (Math.random() > 0.97) this.w = 100;
+		},
+		run = function() {
+			requestAnimationFrame(run);
+			ctx.clearRect(0, 0, canvas.width, canvas.height);
+			ctx.globalCompositeOperation = "multiply";
+			vx -= pointer.x - xb;
+			vy -= pointer.y - yb;
+			if (pointer.x - xb + pointer.y - yb === 0) {
+				vx += Math.random() * 20 - 10;
+				vy += Math.random() * 20 - 10;
+				if (Math.random() > 0.98) {
+					vx = Math.random() * 400 - 200;
+					vy = Math.random() * 400 - 200;
+				}
+			}
+			vx *= 0.6;
+			vy *= 0.6;
+			xb = pointer.x;
+			yb = pointer.y;
+			buffer.push(new Particle());
+			for (var n = 0, N = buffer.length; n < N; n++) {
+				var o = buffer[n];
+				if (n > 1) {
+					var p = buffer[n - 1];
+					var x = p.x;
+					var y = p.y;
+				} else {
+					var x = o.x;
+					var y = o.y;
+				}
+				o.x += o.vx;
+				o.y += o.vy;
+				var c = Math.min(255, Math.round(n * 6));
+				ctx.beginPath();
+				ctx.moveTo(x, y);
+				ctx.lineTo(o.x, o.y);
+				ctx.strokeStyle = "#ffcb21";
+				ctx.lineWidth = o.w;
+				ctx.lineCap = "round";
+				ctx.stroke();
+			}
+			if (N > 120) buffer.shift();
+		},
+		canvas = {
+			elem: document.querySelector("#link-canvas"),
+			resize: function() {
+				this.width = this.elem.width = this.elem.offsetWidth;
+				this.height = this.elem.height = this.elem.offsetHeight;
+			},
+			init: function() {
+				var ctx = this.elem.getContext("2d");
+				// document.body.appendChild(this.elem);
+				window.addEventListener("resize", this.resize.bind(this), false);
+				this.resize();
+				return ctx;
+			}
+		},
+		ctx = canvas.init(),
+		pointer = (function(canvas) {
+			var pointer = {
+				x: canvas.width / 2,
+				y: canvas.height / 2,
+				pointer: function(e) {
+					var touchMode = e.targetTouches,
+						pointer;
+					if (touchMode) {
+						e.preventDefault();
+						pointer = touchMode[0];
+					} else pointer = e;
+					this.x = pointer.clientX / 2;
+					this.y = pointer.clientY;
+				}
+			};
+			window.addEventListener(
+				"mousemove",
+				function(e) {
+					this.pointer(e);
+				}.bind(pointer),
+				false
+			);
+			canvas.elem.addEventListener(
+				"touchmove",
+				function(e) {
+					this.pointer(e);
+				}.bind(pointer),
+				false
+			);
+			return pointer;
+		})(canvas);
+	run();
+})();
+
+</script>
+</body>
+</html>

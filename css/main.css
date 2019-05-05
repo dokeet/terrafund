@@ -118,12 +118,12 @@ body {
 
 
 .play-button-bg {
-	transform: translate(0px, -15px);
+	transform: translate(0px, -50px);
 } 
 
 .play-button-bg:hover {
 	background-color: hsl(200, 89%, 36%);
-	transform: scale(1.1) translate(0px, -15px);
+	transform: scale(1.1) translate(0px, -50px);
 }
 .play-button-bg::after {
 	content: "";
@@ -415,8 +415,8 @@ div.bl {
 #spunge {
 	top: 50%;
 	left: 50%;
-	width: 510px;
-	height: 510px;
+	width: 520px;
+	height: 520px;
 	margin-top: -300px;
 	margin-left: -230px;
 	transform-origin: center center;
